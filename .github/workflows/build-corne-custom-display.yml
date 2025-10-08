@@ -11,5 +11,5 @@ jobs:
     with:
       board: '["mikoto@7.2"]'
       shield: '["corne_left nice_view_adapter custom_display", "corne_right nice_view_adapter custom_display"]'
-      modules: '[]' 
-      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_LV_USE_LABEL=y\nCONFIG_LV_USE_IMG=y\nCONFIG_LV_FONT_MONTSERRAT_12=y\nCONFIG_LV_FONT_MONTSERRAT_20=y\nCONFIG_SIZE_OPTIMIZATIONS=y\nCONFIG_ZMK_WIDGET_LAYER_STATUS=n\nCONFIG_ZMK_WIDGET_BATTERY_STATUS=n\nCONFIG_ZMK_WIDGET_OUTPUT_STATUS=n\nCONFIG_ZMK_WIDGET_WPM_STATUS=n"]'
+      modules: '["default"]'
+      kconfig: '["default"]'
