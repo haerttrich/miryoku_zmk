@@ -1,0 +1,8 @@
+file_format: "1"
+id: custom_display
+name: Custom Display
+type: shield
+url: https://github.com/YOUR_USERNAME/miryoku_zmk
+requires: [pro_micro_i2c]
+features:
+  - display
