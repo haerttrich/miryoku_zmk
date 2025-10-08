@@ -1,0 +1,15 @@
+name: Build with Custom Display
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      board: '["mikoto@7.2"]'
+      shield: '["corne_left nice_view_adapter nice_view", "corne_right nice_view_adapter nice_view"]'
+      modules: '["haerttrich/zmk-custom-display/main"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_WPM=y\nCONFIG_LV_USE_LABEL=y\nCONFIG_LV_USE_IMG=y\nCONFIG_LV_FONT_MONTSERRAT_12=y\nCONFIG_LV_FONT_MONTSERRAT_20=y\nCONFIG_SIZE_OPTIMIZATIONS=y"]'
