@@ -33,8 +33,8 @@
 // #define LV_IMG_DSC_T lv_img_dsc_t
 
 // Display dimensions
-#define SCREEN_WIDTH  68
-#define SCREEN_HEIGHT 160
+#define SCREEN_WIDTH  160
+#define SCREEN_HEIGHT 68
 #define DISP_BUF_SIZE (SCREEN_WIDTH * 10)
 
 // Layout constants
